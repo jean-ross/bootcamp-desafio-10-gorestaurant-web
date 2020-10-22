@@ -17,8 +17,8 @@ export const Container = styled.div<IFoodPlateProps>`
     text-align: center;
 
     ${props =>
-      !props.available &&
-      css`
+    !props.available &&
+    css`
         opacity: 0.3;
       `};
 
